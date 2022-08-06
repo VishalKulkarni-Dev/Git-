@@ -1,2 +1,107 @@
 # Git-
 Git Code 
+
+ASUS@DESKTOP-MM1C7KT MINGW64 ~/Desktop
+$ cd D:\
+>
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d
+$ cd D:\Git
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ mkdir 'Web Project'
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ ls -lart
+total 20
+drwxr-xr-x 1 ASUS 197121 0 Aug  5 22:56  .git/
+drwxr-xr-x 1 ASUS 197121 0 Aug  6 12:05  ../
+drwxr-xr-x 1 ASUS 197121 0 Aug  6 21:40 'Web Project'/
+drwxr-xr-x 1 ASUS 197121 0 Aug  6 21:40  ./
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git init
+Reinitialized existing Git repository in D:/Git/.git/
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git config --global user.name 'Vishal Kulkarni'
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git config --global user.email 'kulkarnivishal907@gmail.com'
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git config --global user.name
+Vishal Kulkarni
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ touch 'index.html'
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git add 'index.html'
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git commit -m 'html is good web languages'
+[master (root-commit) 13b1133] html is good web languages
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git cheackout index.html
+git: 'cheackout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git commit -m 'html is good web languages'
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git add 'index.html'
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git commit -m 'html is web lagnu.'
+[master d3c001f] html is web lagnu.
+ 1 file changed, 1 insertion(+)
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git cheackout 'index.html'
+git: 'cheackout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$ git checkout index.html
+Updated 0 paths from the index
+
+ASUS@DESKTOP-MM1C7KT MINGW64 /d/Git (master)
+$
+
